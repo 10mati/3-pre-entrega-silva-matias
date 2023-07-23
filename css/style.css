@@ -50,6 +50,26 @@
   object-fit: cover;
   border: 2px solid black; }
 
+.redes .face {
+  width: 35px;
+  height: 35px;
+  box-shadow: blue; }
+
+.redes .whatsapp {
+  width: 35px;
+  height: 35px;
+  box-shadow: green; }
+
+.redes .inst {
+  width: 35px;
+  height: 35px;
+  box-shadow: purple; }
+
+.redes .twitter {
+  width: 35px;
+  height: 35px;
+  box-shadow: #1DA1F2; }
+
 .footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 98%;
@@ -64,12 +84,12 @@
   width: 47%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none; }
 
 .info a {
   text-decoration: none;
-  color: #212121; }
+  color: #1a1919; }
 
 .redes {
   width: 47%;
@@ -88,29 +108,20 @@
   cursor: pointer;
   outline: none; }
 
-.redes :hover {
-  box-shadow: 5px 5px 10px #080808;
-  transform: translateY(-7px); }
-
-.redes :active {
-  transform: translateY(-1px); }
-
 @media screen and (max-width: 767px) {
   .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 120px;
-    font-size: 12px;
-    width: 100%; }
+    font-size: 15px;
+    width: 80%;
+    margin: auto; }
   .redes {
     padding: 5px;
-    display: flex;
-    justify-content: space-evenly;
     width: 98%; }
   .info {
-    display: flex;
-    justify-content: space-evenly;
+    margin: auto;
     width: 98%; } }
 
 /* pagina productos */

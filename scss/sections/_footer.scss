@@ -1,3 +1,26 @@
+
+@mixin iconos ($color-redes){
+
+    width: 35px;
+    height: 35px;
+    box-shadow: $color-redes;
+}
+
+.redes{
+    .face{
+        @include iconos (blue);
+    }
+    .whatsapp{
+        @include iconos (green)
+    }
+    .inst{
+        @include iconos (purple)
+    }
+    .twitter{
+        @include iconos (#1DA1F2)
+    }
+}
+
 .footer{
    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,19 +31,20 @@
     justify-content: space-evenly;
     align-items: stretch;
     flex-direction: row;
+   
 
 }
 .info{
     width: 47%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     
 }
 .info a{
     text-decoration: none;
-    color: #212121;
+    color: rgb(26, 25, 25);
 }
 
 .redes{
@@ -32,7 +56,7 @@
     align-items: center;
 }
 
-.redes li{
+.redes li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,13 +66,7 @@
     cursor: pointer;
     outline: none;
 }
-.redes :hover{
-    box-shadow: 5px 5px 10px  rgb(8, 8, 8);
-    transform: translateY(-7px);
-}
-.redes :active{
-    transform: translateY(-1px);
-}
+
 
 @media screen and (max-width: 767px) {
     .footer{
@@ -56,18 +74,17 @@
         flex-direction: column;
         align-items: center;
         height: 120px;
-        font-size: 12px;
-        width: 100%;
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
     }
     .redes {
         padding: 5px;
-        display: flex;
-        justify-content: space-evenly;
         width: 98%;
     }
     .info{
-        display: flex;
-        justify-content: space-evenly;
+        margin: auto;
         width: 98%;
+
     }
 }

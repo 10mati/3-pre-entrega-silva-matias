@@ -1,0 +1,16 @@
+/* pagina ayuda bootstrapp */
+
+#accordionFlushExample{
+    width: 70% !important;
+    margin: auto;
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 767px){
+    .container-mapa{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* reseteo de margin y padding */
+
+.main-slider{
+   width: 90%;
+   height: 30%;
+   margin: 5px auto 0;
+   overflow: hidden;
+   
+}
+.main-slider ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+.main-slider li{
+    list-style: none;
+    width: 100%;
+}
+.main-slider img{
+    width: 100%;
+}
+ @keyframes slide{
+    0%{ margin-left: 0%;}
+    45%{ margin-left: 0%;}
+
+    50%{ margin-left: -100%;}
+    95%{ margin-left: -100%;}
+} 
+
+.main-slider-p{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #212121;
+}
+.galeriaImg{
+    width: 100%;
+    display: inline-block;
+    
+}
+.galeriaImg img{
+    width: 32%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid black;
+}

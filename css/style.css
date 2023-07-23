@@ -180,7 +180,7 @@
   color: #aaaa; }
 
 .card-productos button {
-  background-color: blue;
+  background-color: #a3a1a1;
   height: 30px;
   border: none;
   padding: 4px;
@@ -191,6 +191,7 @@
 
 @media screen and (max-width: 767px) {
   .card {
+    margin-top: 70px;
     display: flex;
     justify-content: center; } }
 

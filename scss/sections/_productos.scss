@@ -44,7 +44,7 @@
     color: #aaaa;
 }
 .card-productos button{
-    background-color: blue;
+    background-color: rgb(163, 161, 161);
     height: 30px;
     border: none;
     padding: 4px;
@@ -55,6 +55,7 @@
 }
 @media screen and (max-width: 767px){
     .card{
+        margin-top: 70px;
         display: flex;
         justify-content: center;
     }

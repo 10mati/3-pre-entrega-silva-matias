@@ -210,7 +210,8 @@
     text-align: center !important; }
   .promociones-bancarias img {
     width: 100%;
-    height: 200px; } }
+    height: 200px;
+    margin-bottom: 30px; } }
 
 /* pagina Locales */
 .titulo-locales {

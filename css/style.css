@@ -140,6 +140,7 @@
 
 /* pagina productos */
 .card {
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -191,7 +192,6 @@
 
 @media screen and (max-width: 767px) {
   .card {
-    margin-top: 70px;
     display: flex;
     justify-content: center; } }
 
@@ -214,6 +214,7 @@
 
 /* pagina Locales */
 .titulo-locales {
+  margin-top: 70px;
   background-image: url(../recursos/imagenes/000.jpeg);
   background-position: center;
   background-size: cover;
@@ -254,10 +255,15 @@
 .mapa iframe {
   width: 99%; }
 
+@media screen and (max-width: 767px) {
+  .mapa {
+    width: 80%; } }
+
 /* pagina ayuda bootstrapp */
 #accordionFlushExample {
   width: 70% !important;
   margin: auto;
+  margin-top: 70px;
   border: 1px solid #423f3f;
   border-radius: 3px; }
 
@@ -321,3 +327,9 @@
   transition: all 300ms ease;
   border: none;
   background-color: #324952; }
+
+@media screen and (max-width: 767px) {
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }

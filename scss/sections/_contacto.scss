@@ -54,3 +54,11 @@
     border: none;
     background-color: #324952;
 }
+@media screen and (max-width: 767px){
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+}

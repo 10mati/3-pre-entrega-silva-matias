@@ -1,6 +1,7 @@
 /* pagina Locales */
 
 .titulo-locales{
+    margin-top: 70px;
     background-image: url(../recursos/imagenes/000.jpeg);
     background-position: center;
     background-size: cover;
@@ -42,4 +43,10 @@
 
 .mapa iframe{
     width: 99%;
+}
+
+@media screen and (max-width: 767px){
+    .mapa{
+        width: 80%;
+    }
 }

@@ -1,19 +1,20 @@
 /* pagina productos */
 
-.card{
-    margin-top: 70px;
+.card {
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.container-card{
+.container-card {
     width: 200px;
     height: 400px;
     margin: 5px;
 }
-.card-productos{
+
+.card-productos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +22,7 @@
     gap: 4px;
 }
 
-.card-productos img{
+.card-productos img {
     background-color: #fff;
     width: 180px;
     height: 260px;
@@ -30,22 +31,25 @@
     object-fit: cover;
 }
 
-.descripcion{
+.descripcion {
     height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
-.card-productos h1{
+
+.card-productos h1 {
     font-size: 1.2rem;
 }
-.card-productos h2{
+
+.card-productos h2 {
     font-size: .9rem;
     color: #aaaa;
 }
-.card-productos button{
-    background-color: rgb(163, 161, 161);
+
+.card-productos button {
+    background-color: #dd5099;
     height: 30px;
     border: none;
     padding: 4px;
@@ -54,8 +58,9 @@
     font-weight: bold;
     border-radius: 5px;
 }
-@media screen and (max-width: 767px){
-    .card{
+
+@media screen and (max-width: 767px) {
+    .card {
         display: flex;
         justify-content: center;
     }

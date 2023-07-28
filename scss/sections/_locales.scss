@@ -1,6 +1,6 @@
 /* pagina Locales */
 
-.titulo-locales{
+.titulo-locales {
     margin-top: 70px;
     background-image: url(../recursos/imagenes/000.jpeg);
     background-position: center;
@@ -13,26 +13,28 @@
     justify-content: center;
     align-items: center;
     filter: grayscale(100%);
- }
+}
 
- .titulo-locales h1{
+.titulo-locales h1 {
     display: flex;
     font-size: 50px;
-    color: rgb(248, 245, 245);
-    background-color: transparent;
- }
- .container-mapa{
+    color: #f0f0f0;
+}
+
+.container-mapa {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     width: 97%;
- }
- .container-mapa h1{
-   padding: 30px;
- }
-.mapa{
+}
+
+.container-mapa h1 {
+    padding: 30px;
+}
+
+.mapa {
     padding-top: 10px;
     margin: 30px;
     position: relative;
@@ -41,12 +43,12 @@
     width: 50%;
 }
 
-.mapa iframe{
+.mapa iframe {
     width: 99%;
 }
 
-@media screen and (max-width: 767px){
-    .mapa{
+@media screen and (max-width: 767px) {
+    .mapa {
         width: 80%;
     }
 }

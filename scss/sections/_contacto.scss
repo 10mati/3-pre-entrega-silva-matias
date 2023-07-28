@@ -1,34 +1,41 @@
 /* pagina contacto */
 
-.container-form{
+.container-form {
     width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
-    margin-top: 90px;
+    margin-top: 100px;
 }
-.info-form{
-    margin: 15px;
+
+.info-form {
+    margin-left: 20px;
 }
-.container-form h2{
+
+.container-form h1 {
     margin-bottom: 15px;
     font-size: 35px;
 }
-.container-form p{
+
+.container-form p {
     font-size: 20px;
     margin-bottom: 30px;
 }
-.container-form img{
+
+.container-form img {
     font-size: 17px;
 }
-.iconos{
+
+.iconos {
     width: 25px;
     display: flex;
 }
-.info-form img p{
+
+.info-form img p {
     display: flex;
 }
+
 .form input {
     width: 90%;
     padding: 15px 10px;
@@ -37,28 +44,37 @@
     margin-bottom: 20px;
     border-radius: 3px;
 }
-.form textarea{
+
+.form textarea {
     width: 90%;
     height: 150px;
     border: 2px solid gray;
     padding: 15px 10px;
     font-size: 20px;
 }
-.form .button{
+
+.form .button {
     padding: 15px;
     font-size: 15px;
-    color:#e6e6e6 ;
+    color: #e6e6e6;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
     border: none;
     background-color: #324952;
 }
-@media screen and (max-width: 767px){
-    .container-form{
+
+@media screen and (max-width: 767px) {
+    .container-form {
         display: flex;
         flex-direction: column;
         align-items: center;
-   }
+
+        .info-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
 
 }

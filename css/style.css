@@ -40,6 +40,10 @@
   padding: 10px;
   background-color: #212121; }
 
+.titulo-productos {
+  display: flex;
+  justify-content: center; }
+
 .galeriaImg {
   width: 100%;
   display: grid;
@@ -71,7 +75,8 @@
 @media screen and (max-width: 500px) {
   .galeriaImg {
     width: 90%;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto; }
   .galeriaImg a {
     height: 200px; } }
 
@@ -151,7 +156,7 @@
 
 /* pagina productos */
 .card {
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -192,7 +197,7 @@
   color: #aaaa; }
 
 .card-productos button {
-  background-color: #a3a1a1;
+  background-color: #dd5099;
   height: 30px;
   border: none;
   padding: 4px;
@@ -208,10 +213,12 @@
 
 /* Pagina Promociones */
 .promociones-bancarias {
-  margin: 40px;
+  margin: 70px;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .promociones-bancarias h1 {
+    margin-top: 30px; }
 
 .promociones-bancarias img {
   width: 100%; }
@@ -221,8 +228,7 @@
     text-align: center !important; }
   .promociones-bancarias img {
     width: 100%;
-    height: 200px;
-    margin-bottom: 30px; } }
+    height: 200px; } }
 
 /* pagina Locales */
 .titulo-locales {
@@ -242,8 +248,7 @@
 .titulo-locales h1 {
   display: flex;
   font-size: 50px;
-  color: #f8f5f5;
-  background-color: transparent; }
+  color: #f0f0f0; }
 
 .container-mapa {
   display: flex;
@@ -272,10 +277,19 @@
     width: 80%; } }
 
 /* pagina ayuda bootstrapp */
+main {
+  min-height: 80vh; }
+
+.titulo-ayuda {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 #accordionFlushExample {
   width: 70% !important;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 90px;
   border: 1px solid #423f3f;
   border-radius: 3px; }
 
@@ -292,12 +306,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  margin-top: 90px; }
+  margin-top: 100px; }
 
 .info-form {
-  margin: 15px; }
+  margin-left: 20px; }
 
-.container-form h2 {
+.container-form h1 {
   margin-bottom: 15px;
   font-size: 35px; }
 
@@ -344,4 +358,8 @@
   .container-form {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+    .container-form .info-form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; } }

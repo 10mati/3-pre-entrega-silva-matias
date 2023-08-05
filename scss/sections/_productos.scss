@@ -1,7 +1,7 @@
 /* pagina productos */
 
 .card {
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,14 +49,13 @@
 }
 
 .card-productos button {
-    background-color: #dd5099;
-    height: 30px;
-    border: none;
-    padding: 4px;
-    color: #fff;
+    background-color: white; 
+    padding:5px 5px;
+    color: #fe46a5;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5px;
+    border: 3px solid #fe46a5;
 }
 
 @media screen and (max-width: 767px) {
